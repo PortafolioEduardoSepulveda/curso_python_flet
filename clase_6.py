@@ -30,7 +30,7 @@ def main(page: ft.Page):
                 ft.DataCell(ft.Text(str(len(data_table.rows)+1),color=ft.Colors.WHITE)),
                 ft.DataCell(ft.Text(nombre_input.value,color=ft.Colors.WHITE)),
                 ft.DataCell(ft.Text(edad_input.value,color=ft.Colors.WHITE)),
-            ]
+            ],
         )
         data_table.rows.append(nueva_fila)
         nombre_input.value = ""
